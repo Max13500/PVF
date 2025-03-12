@@ -8,16 +8,16 @@ La construction du dataset est explicitée dans l'article [PVF-10: A high-resolu
 ![image](https://github.com/user-attachments/assets/bd2da503-b1a5-4b5b-b1a9-b18ab939d834)
 
 ### Premiers essais
-Les 2 notebooks suivants ont été écrits pour se faire une première idée de l'exploitabilité du dataset par des techniques d'apprentissage supervisé
+Les 2 notebooks suivants ont été développés pour se faire une première idée de l'exploitabilité du dataset par des techniques d'apprentissage supervisé
 - *[essai_ML.ipynb](essai_ML.ipynb)* : Essai avec les modèles SVM et KNN après extraction HOG des images (Histogram of Oriented Gradient)
 - *[essai_DL.ipynb](essai_DL.ipynb)* : Essai avec le modèle ResNet18
   
-Ces premiers essaient sont prometteurs, le modèle SVM présentant une accuracy dépassant les 80% et le modèle ResNet18 dépassant les 90%, avec des bons f1-score dans l'ensemble des classes. :thumbsup:
+Ces premiers essais sont prometteurs, le modèle SVM présentant une accuracy dépassant les 80% et le modèle ResNet18 dépassant les 90%, avec des bons f1-score dans l'ensemble des classes. :thumbsup:
 
 ### Utilisation du repo
-1. **PVF-10**
+1. **Dataset PVF-10**
 
-   Après téléchargement, extraire le zip à la racine du repo
+   Après [téléchargement](https://drive.google.com/file/d/1SQq0hETXi8I3Kdq9tDAEVyZgIsRCbOah/view?usp=sharing), extraire le zip à la racine du repo
    
    ⚠️ Renommer les répertoires classes du répertoire test de la même manière que dans le répertoire train (Ex : "01bottom dirt", "02break", etc.).
    Les 2 premiers chiffres des classes ne sont en effet pas dans le même ordre entre train et test !
