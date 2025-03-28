@@ -19,8 +19,8 @@ Ces premiers essais sont prometteurs, le modèle SVM présentant une accuracy d�
 
    Après [téléchargement](https://drive.google.com/file/d/1SQq0hETXi8I3Kdq9tDAEVyZgIsRCbOah/view?usp=sharing), extraire le zip à la racine du repo
    
-   ⚠️ Renommer les répertoires classes du répertoire test de la même manière que dans le répertoire train (Ex : "01bottom dirt", "02break", etc.).
-   Les 2 premiers chiffres des classes ne sont en effet pas dans le même ordre entre train et test !
+   Le répertoire PVF-10 doit se trouver au même niveau que les notebooks
+   
 
 3. **Dépendances**
 
